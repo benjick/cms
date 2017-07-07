@@ -1,0 +1,20 @@
+<body>
+  <div data-cms-enable data-cms-id="test">
+    <p>Test</p>
+  </div>
+
+  <div data-cms-enable data-cms-id="atest2">
+    <p>Test2</p>
+  </div>
+
+  <div data-cms-enable data-cms-id="test">
+    <p>Duplicate</p>
+  </div>
+
+  <script type="text/javascript" src="lib/plugin.js"></script>
+  <script>
+  new CMS('d2de2385-ab9d-4142-b22d-6f800a00a177', {
+    apiBase: 'http://localhost:3001'
+  });
+  </script>
+</body>
